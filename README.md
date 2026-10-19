@@ -39,48 +39,59 @@ The tables are connected through identifiers such as `product_id`, `customer_id`
 
 ## Business Questions
 
-The analysis investigates questions across five main areas:
+This project investigates 18 real-world business questions across 10 analytical areas.
 
-### 1. Sales Performance
-- How does revenue change over time?
-- Which months generate the highest and lowest sales?
-- How does revenue change month over month?
+### Sales Performance
+1. What is total sales revenue by year, quarter, and month?
+2. Which months have the highest and lowest sales?
+3. How many orders were placed in each year?
 
-### 2. Product Performance & Profitability
-- Which products and categories generate the most revenue and profit?
-- Which products experience negative profits?
-- How do discounts relate to sales and profitability?
-- Which products have the highest return rates?
+### Profitability
+4. What is total profit and profit margin by product category?
+5. Which products generate the highest total profit?
+6. Which products have negative profit, and how often does this happen?
 
-### 3. Customer Analysis
-- Which customer segments contribute the most revenue?
-- Who are the highest-value customers?
-- How does customer satisfaction vary across sales channels and product categories?
+### Discounts
+7. How do average discounts relate to sales and profit?
 
-### 4. Regional & Sales Channel Analysis
-- Which countries and regions contribute the most revenue?
-- Which sales channels generate the highest revenue and profit?
-- Which payment methods are most commonly used?
+### Products
+8. Which product categories generate the most revenue?
+9. What are the top 10 products by quantity sold?
+10. What is each category's percentage contribution to total revenue?
 
-### 5. Data Quality & Advanced Analysis
-- Are there missing values, duplicate order IDs, or orphaned foreign keys?
-- How can products be ranked by profit within their categories?
-- What does cumulative revenue reveal about overall sales performance?
+### Geography
+11. Which countries and regions contribute the most revenue?
+
+### Channels
+12. Which sales channel generates the highest revenue and profit?
+
+### Customers
+13. Which customer segments contribute the most revenue?
+14. Who are the top 20 customers by lifetime sales?
+
+### Payments
+15. Which payment methods are used most often and generate the most revenue?
+
+### Returns
+16. What percentage of orders are returned?
+17. Which products have the highest return rates?
+
+### Customer Experience
+18. What is the average customer satisfaction by channel and category?
+
 
 ## SQL Skills Demonstrated
 
-The project applies SQL techniques to answer practical business questions, including:
+The project applies mainly the below SQL techniques to answer the business questions:
 
-- `SELECT`, `WHERE`, and `ORDER BY`
-- Aggregate functions such as `SUM()`, `AVG()`, and `COUNT()`
-- `GROUP BY` and `HAVING`
-- `INNER JOIN` and relational data analysis
-- `CASE` expressions and conditional aggregation
-- Subqueries and `NULLIF()`
-- Date functions for time-based analysis
-- Percentage calculations and profitability metrics
-- Window functions for ranking, running totals, and month-over-month analysis
-- Data quality checks and integrity validation
+- Data aggregation using `SUM()`, `AVG()`, and `COUNT()`
+- Filtering and sorting with `WHERE` and `ORDER BY`
+- Grouping data using `GROUP BY`
+- Joining relational tables using `INNER JOIN`
+- Conditional calculations using `CASE`
+- Subqueries and percentage calculations
+- Date functions for yearly, quarterly, and monthly analysis
+- Profitability and return-rate calculations
 
 ## Key Findings
 
